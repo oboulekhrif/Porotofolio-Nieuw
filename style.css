@@ -236,7 +236,7 @@ background-color: black;
 }
 #player{
  
-  margin-left: 2%;
+  margin-left: 47%;
 }
 .playerX{
 background-image: url('download2.png');
@@ -291,4 +291,10 @@ background-image: url('download2.png');
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin-left: 46%;
+}
+.titelPaginaCv{
+ 
+  margin-left: 48%;
+  margin-top: 2%;
 }
