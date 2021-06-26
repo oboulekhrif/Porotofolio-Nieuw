@@ -1,13 +1,3 @@
-//Thema-Switcher
-/*function myFunction() {
-   let element = document.body;
-   element.classList.toggle("dark-mode");
-}
-
-
-
-(function () { objectFitImages() });*/
-
 
  //Functie dat waarde (val) weergeeft
  function dis(val)
@@ -62,14 +52,13 @@ if(currentPlayer === 'playerX'){
 }
 )
 
-// main.js - het Javascript bestand voor Sprint 2
 
-// function to set a given theme/color-scheme
+// functie om een thema/kleurenschema in te stellen
 function setTheme(themeName) {
     localStorage.setItem('theme', themeName);
     document.documentElement.className = themeName;
 }
-// function to toggle between light and dark theme
+//functie om te schakelen tussen licht en donker thema
 function toggleTheme() {
    if (localStorage.getItem('theme') === 'theme-dark'){
        setTheme('theme-light');
@@ -77,7 +66,7 @@ function toggleTheme() {
        setTheme('theme-dark');
    }
 }
-// Immediately invoked function to set the theme on initial load
+// functie om te schakelen tussen donker en licht thema
 (function () {
    if (localStorage.getItem('theme') === 'theme-dark') {
        setTheme('theme-dark');
